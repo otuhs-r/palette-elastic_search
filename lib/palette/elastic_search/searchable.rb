@@ -63,7 +63,8 @@ module Palette
                            type: 'ngram',
                            min_gram: 1,
                            max_gram: 40,
-                           token_chars: %W(letter digit whitespace punctuation symbol)
+                           token_chars: %W(letter digit punctuation symbol custom),
+                           custom_token_chars: '○〇'
                          }
                        },
                        analyzer: {
